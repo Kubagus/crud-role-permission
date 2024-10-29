@@ -8,3 +8,4 @@ use App\Http\Controllers\AuthController;
 // });
 
 Route::get('/', [AuthController::class, 'login']);
+Route::post('/', [AuthController::class, 'auth_login']);
